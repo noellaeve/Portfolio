@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto:wght@400;500;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main"><b>Noella Eve Aban</b>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#careers">Career</a></li>
+                <li><a href="#design">Design systems</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div>
+                <h1>Hi, I’m Noella.</h1>
+                <p>An aspiring computing professional who enjoys turning ideas into clean, usable interfaces. This is my
+                    COMP 101 final project.</p>
+                <a class="btn fill" href="#design">See my design systems</a> <a class="btn" href="#about">About me</a>
+            </div>
+            <img src="data:image/jpeg;base64,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"
+                alt="Portrait of the portfolio owner">
+        </section>
+
+        <section id="about">
+            <h2>About me</h2>
+            <p>I’m a student at Father Saturnino Urios University studying computing. I’m learning how websites are
+                structured with HTML and styled with CSS, and I like mixing design with code.</p>
+            <div class="grid">
+                <article class="card">
+                    <h3>Background</h3>
+                    <p>Your hometown, school and program. Add one line about what got you into technology.</p>
+                </article>
+                <article class="card">
+                    <h3>Core skills</h3>
+                    <p>HTML5, CSS, Figma, Canva, basic Microsoft Office and file management.</p>
+                </article>
+                <article class="card">
+                    <h3>Interests</h3>
+                    <p>UI design, color systems, typography and web layout.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="careers">
+            <h2>Career aspirations</h2>
+            <p>I want to work in tech as a UI or front-end developer, building products that look good and are easy for
+                anyone to use.</p>
+            <ul class="l">
+                <li>Short term: finish my degree and build a small project portfolio.</li>
+                <li>Mid term: join a design or web team as a junior developer.</li>
+                <li>Long term: lead product design and development for a growing tech company.</li>
+            </ul>
+        </section>
+
+        <section id="design">
+            <h2>Design system showcase</h2>
+            <p>I studied two real design systems in Figma and rebuilt their colors, type and components below to compare
+                them.</p>
+
+            <article class="sys canva" aria-labelledby="t1">
+                <h3 id="t1" class="hd">System 1: Canva-style</h3>
+                <p>Playful and creative, with warm oranges, deep navy and a purple accent. Rounded pill buttons and soft
+                    shadows.</p>
+                <div class="sw" role="list" aria-label="Canva-style colors">
+                    <div role="listitem" style="background:#ffa94d">#FFA94D</div>
+                    <div role="listitem" style="background:#2e2b5f">#2E2B5F</div>
+                    <div role="listitem" style="background:#1b8a1b">#1B8A1B</div>
+                    <div role="listitem" style="background:#ffd21f">#FFD21F</div>
+                    <div role="listitem" style="background:#e5141c">#E5141C</div>
+                    <div role="listitem" style="background:#0a1fe8">#0A1FE8</div>
+                    <div role="listitem" style="background:#7d2ae8">#7D2AE8</div>
+                </div>
+                <div class="type">
+                    <div>
+                        <div style="font:800 2.2rem Inter">Aa Inter</div><small>Heading: 800 · Body: 400</small>
+                    </div>
+                    <div>
+                        <div style="font:800 1.5rem Inter">Heading 2</div>
+                        <div style="font:400 1rem Inter">Body text sample for readability.</div>
+                    </div>
+                </div>
+                <div class="comps">
+                    <div><button class="b p">Primary</button> <button class="b s">Secondary</button></div>
+                    <div class="c body"><b>Design card</b><br><small>Rounded 16px corners with a soft purple
+                            shadow.</small></div>
+                </div>
+            </article>
+
+            <article class="sys atome" aria-labelledby="t2">
+                <h3 id="t2" class="hd">System 2: Atome-style</h3>
+                <p>Bold and financial, with lime yellow, black and strong contrast. Flat cards with sharp outlines.</p>
+                <div class="sw" role="list" aria-label="Atome-style colors">
+                    <div role="listitem" style="background:#f5ff7a;color:#000;text-shadow:none">#F5FF7A</div>
+                    <div role="listitem" style="background:#151515">#151515</div>
+                    <div role="listitem" style="background:#0a8f1a">#0A8F1A</div>
+                    <div role="listitem" style="background:#ffd21f;color:#000;text-shadow:none">#FFD21F</div>
+                    <div role="listitem" style="background:#e5141c">#E5141C</div>
+                    <div role="listitem" style="background:#0a1fe8">#0A1FE8</div>
+                </div>
+                <div class="type">
+                    <div>
+                        <div style="font:900 2.2rem Roboto">Aa Roboto</div><small>Heading: 900 · Body: 400</small>
+                    </div>
+                    <div>
+                        <div style="font:900 1.5rem Roboto">Heading 2</div>
+                        <div style="font:400 1rem Roboto">Body text sample for readability.</div>
+                    </div>
+                </div>
+                <div class="comps">
+                    <div><button class="b p">Primary</button> <button class="b s">Secondary</button></div>
+                    <div class="c body"><b>Offer card</b><br><small>Square 6px corners with a bold black border.</small>
+                    </div>
+                </div>
+            </article>
+
+            <div class="wrap">
+                <table class="cmp">
+                    <caption style="text-align:left;font-weight:600;padding:12px 0">How they compare</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Feature</th>
+                            <th scope="col">Canva-style</th>
+                            <th scope="col">Atome-style</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Mood</th>
+                            <td>Friendly, creative</td>
+                            <td>Confident, trustworthy</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Typeface</th>
+                            <td>Inter</td>
+                            <td>Roboto</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Buttons</th>
+                            <td>Rounded pills</td>
+                            <td>Flat, black with lime text</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cards</th>
+                            <td>Soft shadow, large radius</td>
+                            <td>Bold outline, small radius</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Want to work together or just say hi? Replace these with your own details.</p>
+            <p><a href="mailto:noella.aban@urios.edu.ph">noella.aban@urios.edu.ph</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Noella Eve Aban · COMP 101 Final Project</p>
+    </footer>
+</body>
+
+</html>
